@@ -3,7 +3,7 @@ const { SessionsClient } = require("@google-cloud/dialogflow");
 const { v4: uuidv4 } = require("uuid");
 
 // Configurações do Dialogflow
-const projectId = "seu-id-do-projeto";
+const projectId = "chatbotunipam-ixov";
 const languageCode = "pt-BR"; // ou qualquer outro idioma que deseje
 const credentialsPath = "D:\\ChatBot\\chatbotAPI\\google-credentials.json"; // Substitua pelo caminho real para o arquivo de credenciais
 
