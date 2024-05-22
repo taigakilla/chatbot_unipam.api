@@ -14,6 +14,6 @@ export class DialogflowController {
     const languageCode = 'pt-BR';
     const response = await this.dialogflowService.detectIntent(projectId, message, sessionId, languageCode);
 
-    return response;
+    return response.fulfillmentMessages[0].text;
   }
 }
